@@ -2,7 +2,6 @@ mod bubble_sort;
 mod generate_array;
 mod quick_sort;
 
-use rand::prelude::thread_rng;
 use std::time::Instant;
 
 use bubble_sort::bubble_sort;
