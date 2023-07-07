@@ -38,3 +38,14 @@ pub fn quick_sort<T: Ord>(arr: &mut [T]) {
 		_quick_sort(arr, 0, (len - 1) as isize);
 	}
 }
+
+#[cfg(test)]
+mod tests {
+	use super::quick_sort;
+	#[test]
+	fn test_quick_sort() {
+		let mut array = vec![9, 8, 7, 6];
+		quick_sort(&mut array);
+		assert_eq!(array, vec![6, 7, 8, 9]);
+	}
+}
