@@ -3,4 +3,5 @@
 members = [
 	"fizz_buzz",
 	"smart_home",
+	"sorting_algorithms"
 ]
