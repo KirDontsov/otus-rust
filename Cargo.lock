@@ -66,6 +66,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "search_algorithms"
+version = "0.1.0"
+dependencies = [
+ "rand",
+]
+
+[[package]]
 name = "smart_home"
 version = "0.1.0"
 
